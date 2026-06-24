@@ -257,6 +257,428 @@
     <script src="https://cdn.jsdelivr.net/npm/vanilla-cookieconsent@3/dist/cookieconsent.umd.js"></script>
     <!-- Mickidum Accessibility Toolbar -->
     <script src="https://cdn.jsdelivr.net/gh/mickidum/acc_toolbar/acctoolbar/acctoolbar.min.js"></script>
+
+<style data-zappy-section-v2-css="true">
+/* V2 Regenerated Section CSS */
+.index-testimonials-section {
+  position: relative;
+  background: linear-gradient(180deg, #F5F0E8 0%, #EDE5D8 100%);
+  color: var(--text-dark);
+  padding: 80px 24px 90px;
+  overflow: visible;
+  direction: rtl;
+}
+
+/* Decorative feather quill */
+.index-testimonials-section__feather {
+  position: absolute;
+  bottom: 40px;
+  inset-inline-start: 5%;
+  width: 120px;
+  pointer-events: none;
+  z-index: 0;
+  opacity: 0.9;
+}
+
+.index-testimonials-section__feather svg {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* Container */
+.index-testimonials-section__container {
+  max-width: 1200px;
+  margin: 0 auto;
+  position: relative;
+  z-index: 1;
+}
+
+/* Header */
+.index-testimonials-section__header {
+  text-align: center;
+  margin-bottom: 48px;
+}
+
+.index-testimonials-section__title {
+  font-size: 2rem;
+  font-weight: 600;
+  line-height: 1.25;
+  color: #2C2416;
+  margin: 0 0 12px 0;
+  direction: rtl;
+}
+
+.index-testimonials-section__subtitle {
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.75;
+  color: #4A3F30;
+  margin: 0 auto 20px auto;
+  max-width: 600px;
+}
+
+.index-testimonials-section__divider {
+  display: flex;
+  justify-content: center;
+  margin-top: 8px;
+}
+
+.index-testimonials-section__divider svg {
+  width: 160px;
+  height: 20px;
+}
+
+/* Quiz Card */
+.index-testimonials-section__quiz-card {
+  background: #FFFFFF;
+  border-radius: 10px;
+  box-shadow: 0 4px 20px rgba(44,36,22,0.08);
+  padding: 32px;
+  margin-bottom: 48px;
+  direction: rtl;
+}
+
+/* Quiz Progress */
+.index-testimonials-section__quiz-progress {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin-bottom: 32px;
+}
+
+.index-testimonials-section__quiz-step {
+  font-size: 0.78rem;
+  font-weight: 500;
+  letter-spacing: 0.03em;
+  color: #7A6E5F;
+}
+
+.index-testimonials-section__progress-bar {
+  width: 100%;
+  height: 6px;
+  background: #F3EBDD;
+  border-radius: 100px;
+  overflow: hidden;
+}
+
+.index-testimonials-section__progress-fill {
+  height: 100%;
+  background: #6F7B52;
+  border-radius: 100px;
+  transition: width 0.3s ease;
+}
+
+/* Question Area */
+.index-testimonials-section__question-area {
+  display: flex;
+  align-items: flex-start;
+  gap: 16px;
+  margin-bottom: 32px;
+}
+
+.index-testimonials-section__question-icon {
+  flex-shrink: 0;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #F3EBDD;
+  border-radius: 50%;
+  color: #6F7B52;
+}
+
+.index-testimonials-section__question-icon svg {
+  width: 24px;
+  height: 24px;
+}
+
+.index-testimonials-section__question-text {
+  font-size: 1.4rem;
+  font-weight: 600;
+  line-height: 1.35;
+  color: #2C2416;
+  margin: 0;
+  direction: rtl;
+  flex: 1;
+}
+
+/* Quiz Options */
+.index-testimonials-section__quiz-options {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin-bottom: 32px;
+}
+
+.index-testimonials-section__option {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 16px 20px;
+  background: #F5F0E8;
+  border: 1px solid #DDD5C5;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.index-testimonials-section__option:hover {
+  background: #EDE5D8;
+  border-color: #C8A96E;
+}
+
+.index-testimonials-section__radio {
+  display: none;
+}
+
+.index-testimonials-section__option-indicator {
+  flex-shrink: 0;
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  background: #FFFFFF;
+  border: 2px solid #D8CDBD;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: #6F7B52;
+  transition: all 0.2s ease;
+}
+
+.index-testimonials-section__option-text {
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.7;
+  color: #2E2A26;
+}
+
+/* Quiz Actions */
+.index-testimonials-section__quiz-actions {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  flex-wrap: wrap;
+}
+
+.index-testimonials-section__check-btn {
+  background: #4A6741;
+  color: #F5F0E8;
+  padding: 14px 28px;
+  border-radius: 8px;
+  border: none;
+  font-weight: 600;
+  font-size: 1rem;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  cursor: pointer;
+  transition: background 0.2s ease;
+}
+
+.index-testimonials-section__check-btn:hover {
+  background: #3A5232;
+}
+
+.index-testimonials-section__quiz-hint {
+  font-size: 0.78rem;
+  font-weight: 500;
+  color: #7A6E5F;
+}
+
+/* Features Grid */
+.index-testimonials-section__features-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 24px;
+  margin-bottom: 48px;
+}
+
+.index-testimonials-section__feature-item {
+  display: flex;
+  align-items: flex-start;
+  gap: 12px;
+  padding: 20px;
+  background: #FFFFFF;
+  border-radius: 10px;
+  box-shadow: 0 4px 20px rgba(44,36,22,0.08);
+  direction: rtl;
+}
+
+.index-testimonials-section__feature-icon-wrapper {
+  flex-shrink: 0;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  background: #F3EBDD;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #6F7B52;
+}
+
+.index-testimonials-section__feature-icon-wrapper svg {
+  width: 28px;
+  height: 28px;
+}
+
+.index-testimonials-section__feature-content {
+  flex: 1;
+  min-width: 0;
+}
+
+.index-testimonials-section__feature-title {
+  font-size: 1rem;
+  font-weight: 600;
+  line-height: 1.4;
+  color: #2C2416;
+  margin: 0 0 4px 0;
+}
+
+.index-testimonials-section__feature-desc {
+  font-size: 0.95rem;
+  font-weight: 400;
+  line-height: 1.75;
+  color: #4A3F30;
+  margin: 0;
+}
+
+/* Image Wrapper */
+.index-testimonials-section__image-wrapper {
+  position: relative;
+  max-width: 600px;
+  margin: 0 auto 48px auto;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 8px 32px rgba(44,36,22,0.12);
+}
+
+.index-testimonials-section__image {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* Sticky note decoration */
+.index-testimonials-section__sticky-note {
+  position: absolute;
+  bottom: -20px;
+  inset-inline-start: -30px;
+  width: 180px;
+  pointer-events: none;
+  z-index: 2;
+  transform: rotate(-5deg);
+}
+
+.index-testimonials-section__sticky-note svg {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* CTA */
+.index-testimonials-section__cta {
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.index-testimonials-section__cta-btn {
+  background: #4A6741;
+  color: #F5F0E8;
+  padding: 14px 28px;
+  border-radius: 8px;
+  border: none;
+  font-weight: 600;
+  font-size: 1rem;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  cursor: pointer;
+  text-decoration: none;
+  transition: background 0.2s ease;
+}
+
+.index-testimonials-section__cta-btn:hover {
+  background: #3A5232;
+}
+
+.index-testimonials-section__cta-link {
+  background: transparent;
+  color: #8B7355;
+  border: none;
+  padding: 10px 20px;
+  font-size: 0.9rem;
+  cursor: pointer;
+  text-decoration: underline;
+  font-weight: 500;
+  transition: color 0.2s ease;
+}
+
+.index-testimonials-section__cta-link:hover {
+  color: #6F7B52;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .index-testimonials-section {
+    padding: 100px 16px 60px;
+  }
+
+  .index-testimonials-section__feather {
+    display: none;
+  }
+
+  .index-testimonials-section__title {
+    font-size: 1.75rem;
+  }
+
+  .index-testimonials-section__quiz-card {
+    padding: 20px;
+  }
+
+  .index-testimonials-section__question-text {
+    font-size: 1.2rem;
+  }
+
+  .index-testimonials-section__features-grid {
+    grid-template-columns: 1fr !important;
+    gap: 16px;
+  }
+
+  .index-testimonials-section__feature-item {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .index-testimonials-section__quiz-actions {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .index-testimonials-section__sticky-note {
+    display: none;
+  }
+
+  .index-testimonials-section__cta {
+    flex-direction: column;
+    gap: 12px;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+  .index-testimonials-section__features-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+</style>
     <link rel="stylesheet" href="/styles.css">
 
     <style id="zappy-dropdown-submenu-styles">
@@ -1093,56 +1515,152 @@
       
     </div></section>
 
-<section data-band-index="3" class="index-testimonials-section" data-layout-spec="בית-testimonials" id="index-testimonials-section">
-  <div class="index-testimonials-container">
-    <!-- Section Header -->
-    <div class="index-testimonials-header">
-      <h2>לומדים בביטחון, צומחים בתורה</h2>
-      <p>התלמידים והקהילות שלנו מספרים על חוויית הלימוד המשולבת חידון, שמחזקת את ההבנה ומעמיקה את הקשר לתורה</p>
-    </div>
-
-    <!-- Side Annotation -->
-    <aside class="index-testimonials-annotation" aria-hidden="true">
-      <div class="annotation-line"></div>
-      <span class="annotation-text" style="color: rgb(46, 42, 38) !important;">למידה עקבית • שימור גבוה</span>
-    </aside>
-
-    <!-- Testimonials Grid -->
-    <div class="index-testimonials-grid zappy-preserve-css-grid" data-original-item-width="375" data-original-gap="32px" style="display: grid; --zappy-grid-cols: repeat(2, minmax(0, 1fr)); grid-template-columns: repeat(2, minmax(0, 1fr)); align-items: stretch !important;" data-zappy-explicit-columns="true">
-      <!-- Card 1 -->
-      <article class="index-testimonial-card card-1" data-grid-item-index="0">
-        <div class="quote-mark" aria-hidden="true">
-          <svg data-element-type="icon" data-icon-type="svg" viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-            <path d="M6 17h3l2-4V7H5v6h3l-2 4zm8 0h3l2-4V7h-6v6h3l-2 4z"></path>
-          </svg>
-        </div>
-        <p class="testimonial-quote">מאז שהתחלתי ללמוד בפלטפורמה, ההבנה שלי בסוגיות התלמוד השתפרה פלאים. החידון בסוף כל שיעור עוזר לי לוודא שאני באמת מבין את החומר, ולא רק עובר עליו.</p>
-        <h3 class="testimonial-author">יעקב כהן</h3>
-        <p class="testimonial-role">תלמיד קבוע, ירושלים</p>
-      </article>
-
-      <!-- Card 2 -->
-      
-
-      <!-- Card 3 -->
-      <article class="index-testimonial-card card-3" data-grid-item-index="1">
-        <div class="quote-mark" aria-hidden="true">
-          <svg data-element-type="icon" data-icon-type="svg" viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-            <path d="M6 17h3l2-4V7H5v6h3l-2 4zm8 0h3l2-4V7h-6v6h3l-2 4z"></path>
-          </svg>
-        </div>
-        <p class="testimonial-quote">כמנהיג קהילה, אני תמיד מחפש דרכים להנגיש את התורה לצעירים. הפלטפורמה הזו עושה זאת בצורה מרתקת ומכבדת. השילוב של שיעור וחידון יוצר רצף לימודי מושלם.</p>
-        <h3 class="testimonial-author">מרים אברהם</h3>
-        <p class="testimonial-role">רכזת קהילה, תל אביב</p>
-      </article>
-    </div>
+<section class="index-testimonials-section" data-layout-spec="בית-testimonials" dir="rtl" id="index-testimonials-section">
+  <!-- Decorative feather quill motif -->
+  <div class="index-testimonials-section__feather" aria-hidden="true">
+    <svg viewBox="0 0 60 120" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <path d="M30,10 C25,25 20,40 18,60 C16,80 18,95 22,110 C24,112 26,108 28,100 C30,92 32,80 33,65 C34,50 33,35 30,20 C28,10 29,8 30,10 Z" fill="#C8A96E" opacity="0.18"></path>
+      <path d="M30,20 C35,15 40,12 45,10 C50,12 48,18 44,25 C40,32 35,40 32,50 C29,60 28,70 28,80" stroke="#C8A96E" stroke-width="1.5" opacity="0.18" fill="none"></path>
+    </svg>
   </div>
 
-  <!-- Bottom Divider: Bookmark Tab Silhouette -->
-  <div class="index-testimonials-divider-wrapper" aria-hidden="true">
-    <svg data-no-icon-edit="true" aria-hidden="true" viewBox="0 0 1200 60" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
-      <path d="M0,60 L0,15 L600,45 L1200,15 L1200,60 Z" fill="var(--bg-dark)"></path>
-    </svg>
+  <div class="index-testimonials-section__container">
+    <!-- Section Header -->
+    <div class="index-testimonials-section__header">
+      <h2 class="index-testimonials-section__title">בחנו את ידיעותיכם</h2>
+      <p class="index-testimonials-section__subtitle">חידון תורה אינטראקטיבי לבדיקת הידע שלכם בנושאי פרשת השבוע, הלכה ומדרשים</p>
+      <!-- Ornamental divider -->
+      <div class="index-testimonials-section__divider" aria-hidden="true">
+        <svg viewBox="0 0 160 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <line x1="0" y1="10" x2="60" y2="10" stroke="#C8A96E" stroke-width="1" opacity="0.7"></line>
+          <polygon points="80,5 90,10 80,15 70,10" fill="#C8A96E" opacity="0.7"></polygon>
+          <line x1="100" y1="10" x2="160" y2="10" stroke="#C8A96E" stroke-width="1" opacity="0.7"></line>
+        </svg>
+      </div>
+    </div>
+
+    <!-- Quiz Card -->
+    <div class="index-testimonials-section__quiz-card">
+      <!-- Quiz Progress -->
+      <div class="index-testimonials-section__quiz-progress">
+        <span class="index-testimonials-section__quiz-step">שאלה 1 מתוך 5</span>
+        <div class="index-testimonials-section__progress-bar">
+          <div class="index-testimonials-section__progress-fill" style="width: 20%;"></div>
+        </div>
+      </div>
+
+      <!-- Quiz Question -->
+      <div class="index-testimonials-section__question-area">
+        <div class="index-testimonials-section__question-icon" aria-hidden="true">
+          <svg width="32" height="32" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" data-element-type="icon" data-icon-type="svg">
+            <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm1 15h-2v-2h2v2zm0-4h-2V7h2v6z" fill="currentColor"></path>
+          </svg>
+        </div>
+        <h3 class="index-testimonials-section__question-text">מהו המקור לכך שמשה רבנו לא נכנס לארץ ישראל?</h3>
+      </div>
+
+      <!-- Quiz Options -->
+      <div class="index-testimonials-section__quiz-options">
+        <label class="index-testimonials-section__option">
+          <input type="radio" name="quiz-answer" class="index-testimonials-section__radio" value="a">
+          <span class="index-testimonials-section__option-indicator">א</span>
+          <span class="index-testimonials-section__option-text">חטא המרגלים</span>
+        </label>
+        <label class="index-testimonials-section__option">
+          <input type="radio" name="quiz-answer" class="index-testimonials-section__radio" value="b">
+          <span class="index-testimonials-section__option-indicator">ב</span>
+          <span class="index-testimonials-section__option-text">חטא מי מריבה</span>
+        </label>
+        <label class="index-testimonials-section__option">
+          <input type="radio" name="quiz-answer" class="index-testimonials-section__radio" value="c">
+          <span class="index-testimonials-section__option-indicator">ג</span>
+          <span class="index-testimonials-section__option-text">חטא העגל</span>
+        </label>
+        <label class="index-testimonials-section__option">
+          <input type="radio" name="quiz-answer" class="index-testimonials-section__radio" value="d">
+          <span class="index-testimonials-section__option-indicator">ד</span>
+          <span class="index-testimonials-section__option-text">מכות מצרים</span>
+        </label>
+      </div>
+
+      <!-- Quiz Action -->
+      <div class="index-testimonials-section__quiz-actions">
+        <button class="index-testimonials-section__check-btn btn-primary">בדיקת תשובה</button>
+        <span class="index-testimonials-section__quiz-hint">בחרו תשובה אחת נכונה</span>
+      </div>
+    </div>
+
+    <!-- Quiz Features -->
+    <div class="index-testimonials-section__features-grid">
+      <div class="index-testimonials-section__feature-item">
+        <div class="index-testimonials-section__feature-icon-wrapper">
+          <svg width="28" height="28" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" data-element-type="icon" data-icon-type="svg">
+            <path d="M9 11l3 3L22 4" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+            <path d="M21 12v7a2 2 0 01-2 2H5a2 2 0 01-2-2V5a2 2 0 012-2h11" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+          </svg>
+        </div>
+        <div class="index-testimonials-section__feature-content">
+          <h4 class="index-testimonials-section__feature-title">משוב מיידי</h4>
+          <p class="index-testimonials-section__feature-desc">קבלו תשובה מפורטת עם מקורות מיד לאחר כל שאלה</p>
+        </div>
+      </div>
+      <div class="index-testimonials-section__feature-item">
+        <div class="index-testimonials-section__feature-icon-wrapper">
+          <svg width="28" height="28" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" data-element-type="icon" data-icon-type="svg">
+            <path d="M12 20h9" stroke="currentColor" stroke-width="2" stroke-linecap="round"></path>
+            <path d="M16.5 3.5a2.121 2.121 0 013 3L7 19l-4 1 1-4L16.5 3.5z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+          </svg>
+        </div>
+        <div class="index-testimonials-section__feature-content">
+          <h4 class="index-testimonials-section__feature-title">5 נושאים מגוונים</h4>
+          <p class="index-testimonials-section__feature-desc">פרשת שבוע, הלכה, מדרש, מוסר ואגדה</p>
+        </div>
+      </div>
+      <div class="index-testimonials-section__feature-item">
+        <div class="index-testimonials-section__feature-icon-wrapper">
+          <svg width="28" height="28" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" data-element-type="icon" data-icon-type="svg">
+            <path d="M12 15a3 3 0 100-6 3 3 0 000 6z" stroke="currentColor" stroke-width="2"></path>
+            <path d="M19.4 15a1.65 1.65 0 00.33 1.82l.06.06a2 2 0 010 2.83 2 2 0 01-2.83 0l-.06-.06a1.65 1.65 0 00-1.82-.33 1.65 1.65 0 00-1 1.51V21a2 2 0 01-4 0v-.09A1.65 1.65 0 009 19.4a1.65 1.65 0 00-1.82.33l-.06.06a2 2 0 01-2.83-2.83l.06-.06A1.65 1.65 0 004.68 15a1.65 1.65 0 00-1.51-1H3a2 2 0 010-4h.09A1.65 1.65 0 004.6 9a1.65 1.65 0 00-.33-1.82l-.06-.06a2 2 0 012.83-2.83l.06.06A1.65 1.65 0 009 4.68a1.65 1.65 0 001-1.51V3a2 2 0 014 0v.09a1.65 1.65 0 001 1.51 1.65 1.65 0 001.82-.33l.06-.06a2 2 0 012.83 2.83l-.06.06A1.65 1.65 0 0019.4 9a1.65 1.65 0 001.51 1H21a2 2 0 010 4h-.09a1.65 1.65 0 00-1.51 1z" stroke="currentColor" stroke-width="2"></path>
+          </svg>
+        </div>
+        <div class="index-testimonials-section__feature-content">
+          <h4 class="index-testimonials-section__feature-title">התאמה אישית</h4>
+          <p class="index-testimonials-section__feature-desc">רמת קושי מותאמת לידע התורני שלכם</p>
+        </div>
+      </div>
+      <div class="index-testimonials-section__feature-item">
+        <div class="index-testimonials-section__feature-icon-wrapper">
+          <svg width="28" height="28" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" data-element-type="icon" data-icon-type="svg">
+            <path d="M22 12h-4l-3 9L9 3l-3 9H2" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+          </svg>
+        </div>
+        <div class="index-testimonials-section__feature-content">
+          <h4 class="index-testimonials-section__feature-title">מעקב התקדמות</h4>
+          <p class="index-testimonials-section__feature-desc">צפו בציון הסופי ובהתקדמות שלכם לאורך זמן</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Supporting Image -->
+    <div class="index-testimonials-section__image-wrapper">
+      <img data-context="A warm, softly lit study desk with an open Torah scroll, a quill pen, and a cup of tea, evoking intimate chavruta learning and Jewish scholarship" width="600" height="400" src="/assets/jewish-education-torah-learning-section-בית-testimonials-index-testimonials-image-1.webp" alt="שולחן לימוד תורה עם ספרים וקולמוס" class="index-testimonials-section__image">
+      <!-- Sticky note decoration -->
+      <div class="index-testimonials-section__sticky-note" aria-hidden="true">
+        <svg viewBox="0 0 180 140" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M10,10 L170,12 L168,130 L15,128 L8,15 Z" fill="#F0E8D0" stroke="#D8CDBD" stroke-width="1.5" stroke-dasharray="4 2"></path>
+          <line x1="25" y1="35" x2="155" y2="37" stroke="#C8A96E" stroke-width="1.5" opacity="0.6"></line>
+          <line x1="25" y1="55" x2="140" y2="57" stroke="#C8A96E" stroke-width="1.5" opacity="0.6"></line>
+          <line x1="25" y1="75" x2="150" y2="77" stroke="#C8A96E" stroke-width="1.5" opacity="0.6"></line>
+          <line x1="25" y1="95" x2="120" y2="97" stroke="#C8A96E" stroke-width="1.5" opacity="0.6"></line>
+        </svg>
+      </div>
+    </div>
+
+    <!-- CTA -->
+    <div class="index-testimonials-section__cta">
+      <a href="#" class="index-testimonials-section__cta-btn btn-primary">התחילו חידון עכשיו</a>
+      <a href="#" class="index-testimonials-section__cta-link btn-ghost">צפייה בכל השיעורים</a>
+    </div>
   </div>
 </section>
 
