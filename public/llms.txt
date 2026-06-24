@@ -1,0 +1,116 @@
+# שיעורי תורה — Generative Engine Optimization Map
+
+> An online Torah learning platform where each lesson concludes with an interactive quiz to test the learner's understanding. The site is focused on Jewish religious education, combining structured Torah lessons with an engaging, gamified quiz element at the end of each session to reinforce learning.
+
+---
+
+## Pages
+
+### בית
+https://-8db343e1.zappy5.app
+פלטפורמת לימוד תורה אונליין שמשלבת שיעורים מובנים עם חידון מסכם וחווייתי. הצטרפו לקהילה הלומדת והפכו כל שיעור להצלחה. התחילו ללמוד ולהבקיע היום!
+
+### חוויית למידה
+https://-8db343e1.zappy5.app/learning-experience
+גלו איך שיעורי התורה שלנו הופכים למידה למסע מרתק עם חידונים מאתגרים, תוכן מעמיק וממשק ידידותי. חיזקו את ההבנה שלכם ותיהנו מכל רגע של לימוד. נסו עכשיו בחינם!
+
+### שיטה וקהילה
+https://-8db343e1.zappy5.app/method-community
+הכירו את שיטת הלימוד הייחודית שלנו ואת הקהילה התומכת שמאחורי שיעורי תורה. למידה בקצב שלכם, דיונים מעשירים וחיזוק הזהות היהודית. הצטרפו למשפחת הלומדים שלנו!
+
+### צור קשר
+https://-8db343e1.zappy5.app/contact
+יש לכם שאלה על שיעורי תורה אונליין? צרו איתנו קשר עוד היום וגלו איך להפוך את לימוד התורה לחלק מחיי היומיום שלכם. אנחנו כאן כדי לעזור לכם להתחבר לתורה מחדש!
+
+### Cart
+https://-8db343e1.zappy5.app/cart
+עגלת הקניות שלך
+
+### Checkout
+https://-8db343e1.zappy5.app/checkout
+תשלום
+
+### Login
+https://-8db343e1.zappy5.app/login
+התחברות לקוחות
+
+### Account
+https://-8db343e1.zappy5.app/account
+החשבון שלי
+
+### Order Success
+https://-8db343e1.zappy5.app/order-success
+תודה שנרשמת לקורס
+
+### תודה שפניתם אלינו
+https://-8db343e1.zappy5.app/thank-you
+שיעורי תורה - תודה שפניתם אלינו
+
+### Courses
+https://-8db343e1.zappy5.app/courses
+Browse all available courses.
+
+### Course Category
+https://-8db343e1.zappy5.app/category/:slug
+Browse courses in this category.
+
+### Course Detail
+https://-8db343e1.zappy5.app/courses/:slug
+Course details and curriculum.
+
+### Lesson
+https://-8db343e1.zappy5.app/lesson/:lessonId
+Lesson player.
+
+### My Learning
+https://-8db343e1.zappy5.app/my-learning
+Your enrolled courses and progress.
+
+### Certificate
+https://-8db343e1.zappy5.app/certificate/:code
+Verify a course completion certificate.
+
+## Legal & Policy
+
+### Privacy Policy
+https://-8db343e1.zappy5.app/privacy
+Information about how user data is collected, stored, and protected.
+
+### Terms & Conditions
+https://-8db343e1.zappy5.app/terms
+Legal terms describing service usage, rights, and policies.
+
+### Accessibility Statement
+https://-8db343e1.zappy5.app/accessibility
+Information about WCAG compliance and accessibility features.
+
+---
+
+## Products
+
+_No products are currently configured._
+
+---
+
+# Business Context (for LLM understanding)
+
+## About שיעורי תורה
+An online Torah learning platform where each lesson concludes with an interactive quiz to test the learner's understanding. The site is focused on Jewish religious education, combining structured Torah lessons with an engaging, gamified quiz element at the end of each session to reinforce learning.
+
+## Target Audience
+- חובבי תורה מושבעים
+- תלמידי מוסדות חינוך יהודי
+- מנהיגי קהילות יהודיות
+
+## Industry
+Jewish Education & Torah Learning
+
+---
+
+# Machine-readable feeds
+
+- Sitemap (XML): https://-8db343e1.zappy5.app/sitemap.xml
+- Robots: https://-8db343e1.zappy5.app/robots.txt
+- Flattened page text (for LLMs): https://-8db343e1.zappy5.app/llms-full.txt
+- Products (JSON): https://-8db343e1.zappy5.app/products.json
+- Products (Google Merchant RSS): https://-8db343e1.zappy5.app/product-feed.xml
